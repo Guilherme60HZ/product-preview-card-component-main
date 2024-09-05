@@ -1,0 +1,83 @@
+body {
+  background-color: #F3EAE3;
+}
+
+#corpo {
+  display: flex;
+  radius: 50px;
+  gap: 40px;
+  background-color: white;
+  width: 675px;
+  margin-left: 300px;
+  margin-top: 60px;
+  border: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 470px;
+  font-family: "Montserrat", sans-serif;
+}
+#corpo img {
+  height: 470px;
+  width: 337.5px;
+}
+
+#botao {
+  margin-top: 10px;
+  height: 42px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px;
+  background-color: #3D8168;
+  color: white;
+}
+#botao img {
+  height: 15px;
+  width: 15px;
+}
+#botao .line {
+  text-decoration: line-through;
+}
+
+#h1 {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.green {
+  color: #3D8168;
+}
+
+.gray {
+  color: #B5B5BF;
+  font-size: 14px;
+}
+
+h5 {
+  color: gray;
+  text-decoration: line-through;
+}
+
+#itembotao {
+  align-self: center;
+}
+#itembotao img {
+  margin-top: 11px;
+  margin-left: 46px;
+}
+
+#h1 {
+  font-family: "Fraunces", serif;
+}
+
+#botao:hover {
+  background-color: #1A4031;
+}
+
+#perfume {
+  margin-top: 30px;
+}
+
+.price {
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
